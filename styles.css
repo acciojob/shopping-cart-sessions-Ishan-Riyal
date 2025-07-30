@@ -1,1 +1,76 @@
 /*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 3rem;
+  background-color: #f8f9fa;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+h1,
+h2 {
+  color: #2c3e50;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1.5rem;
+  background: #ffffff;
+  padding: 1.5rem 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+button {
+  padding: 0.8rem 1.6rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#clear-cart-btn {
+  margin-top: 2rem;
+  background-color: #dc3545;
+  font-size: 1.4rem;
+  padding: 0.8rem 2rem;
+}
+
+#clear-cart-btn:hover {
+  background-color: #a71d2a;
+}
+
+hr {
+  margin: 3rem 0;
+}
